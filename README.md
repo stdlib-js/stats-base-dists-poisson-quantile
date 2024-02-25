@@ -65,13 +65,13 @@ where `F` is the cumulative distribution function (CDF) of a Poisson distributio
 ## Usage
 
 ```javascript
-import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson-quantile@esm/index.mjs';
+import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson-quantile@v0.2.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson-quantile@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson-quantile@v0.2.1-esm/index.mjs';
 ```
 
 #### quantile( p, lambda )
@@ -159,7 +159,7 @@ y = myquantile( 1.0 );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson-quantile@esm/index.mjs';
+import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson-quantile@v0.2.1-esm/index.mjs';
 
 var lambda;
 var p;

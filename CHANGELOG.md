@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-30)
+## Unreleased (2026-01-31)
 
 <section class="issues">
 
@@ -24,6 +24,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`66c95d7`](https://github.com/stdlib-js/stdlib/commit/66c95d76361e89d0774e48eaeeda47a0224dd954) - **bench:** update random value generation for `stats/base/dists/poisson` [(#10008)](https://github.com/stdlib-js/stdlib/pull/10008) _(by Bhargav Dabhade)_
 -   [`93fa3eb`](https://github.com/stdlib-js/stdlib/commit/93fa3eb4ae84a02ec231d778c6e543a83a86bc45) - **docs:** replace manual `for` loop in examples [(#9440)](https://github.com/stdlib-js/stdlib/pull/9440) _(by Harsh Yadav, Athan Reines)_
 -   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
@@ -43,9 +44,10 @@ A total of 2 issues were closed in this release:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Bhargav Dabhade
 -   Harsh Yadav
 -   Philipp Burckhardt
 -   pranav-1720

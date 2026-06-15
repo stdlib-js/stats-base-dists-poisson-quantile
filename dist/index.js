@@ -1,4 +1,4 @@
-"use strict";var a=function(r,e){return function(){return e||r((e={exports:{}}).exports,e),e.exports}};var c=a(function(X,g){
+"use strict";var a=function(r,e){return function(){try{return e||r((e={exports:{}}).exports,e),e.exports}catch(t){throw (e=0, t)}};};var c=a(function(X,g){
 var q=require('@stdlib/stats-base-dists-poisson-cdf/dist'),o;function O(r,e,t){for(;;){if(r===0||q(r-1,t)<e)return r;r-=1}}function j(r,e,t){for(;;)if(r+=1,q(r,t)>=e)return r}o={left:O,right:j};g.exports=o
 });var x=a(function(Y,R){
 var h=require('@stdlib/math-base-special-erfcinv/dist'),N=require('@stdlib/math-base-assert-is-nan/dist'),k=require('@stdlib/math-base-special-round/dist'),z=require('@stdlib/math-base-special-sqrt/dist'),A=require('@stdlib/stats-base-dists-poisson-cdf/dist'),y=require('@stdlib/constants-float64-sqrt-two/dist'),B=require('@stdlib/constants-float64-pinf/dist'),I=c();function C(r,e){var t,v,i,n,s,u;return N(e)||e<0?NaN:N(r)||r<0||r>1?NaN:e===0||r===0?0:r===1?B:(i=z(e),t=1/i,r<.5?u=-h(2*r)*y:u=h(2*(1-r))*y,s=u*u,n=u+t*(s-1)/6,v=k(e+i*n),A(v,e)>=r?I.left(v,r,e):I.right(v,r,e))}R.exports=C

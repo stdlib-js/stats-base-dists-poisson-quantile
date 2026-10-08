@@ -2,6 +2,63 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-10-08)
+
+<section class="features">
+
+### Features
+
+-   [`e2dd9ec`](https://github.com/stdlib-js/stdlib/commit/e2dd9ec9ae82431ef4d3e9e355e2e5ac4fd91687) - add C implementation for `stats/base/dists/poisson/quantile` [(#14731)](https://github.com/stdlib-js/stdlib/pull/14731)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#3794](https://github.com/stdlib-js/stdlib/issues/3794)
+
+</section>
+
+<!-- /.issues -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`e2dd9ec`](https://github.com/stdlib-js/stdlib/commit/e2dd9ec9ae82431ef4d3e9e355e2e5ac4fd91687) - **feat:** add C implementation for `stats/base/dists/poisson/quantile` [(#14731)](https://github.com/stdlib-js/stdlib/pull/14731) _(by Philipp Burckhardt, Karan Anand)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Karan Anand
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.3">
 
 ## 0.2.3 (2026-02-08)

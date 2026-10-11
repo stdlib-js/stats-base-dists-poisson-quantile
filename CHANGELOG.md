@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-08)
+## Unreleased (2026-10-11)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`8484af7`](https://github.com/stdlib-js/stdlib/commit/8484af71004df2ecfb138ac5fa793419e1af75be) - **docs:** add missing section separator [(#15980)](https://github.com/stdlib-js/stdlib/pull/15980) _(by Philipp Burckhardt)_
 -   [`e2dd9ec`](https://github.com/stdlib-js/stdlib/commit/e2dd9ec9ae82431ef4d3e9e355e2e5ac4fd91687) - **feat:** add C implementation for `stats/base/dists/poisson/quantile` [(#14731)](https://github.com/stdlib-js/stdlib/pull/14731) _(by Philipp Burckhardt, Karan Anand)_
 
 </details>
